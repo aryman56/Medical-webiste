@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+.w-100{
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.w-50{
+    width: 50%;
+    display: block;
+    float: left;
+    margin-top: -2px;
+    margin-block-end:30px ;
+}
+
+
+.navbar {
+    width:100%;
+    background-color:black;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+.navbar a {
+    text-align: center;
+  float: left;
+  padding: 12px;
+  color:whitesmoke;
+  text-decoration:none ;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.navbar a:hover{
+  background-color:rgb(6, 144, 144);
+  
+}
+#_main_banner{
+    width: 100%;
+    height: auto;
+}
+
+#_main_banner>img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#main{
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+    padding-right: 100px;
+    
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: darkturquoise;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    margin-left: x;
+}
+
+.navbar img{
+    float: left;
+    margin-top: 5px;
+}
+
+.About_s>h1{
+    font-size:53px;
+    color: black;
+    text-align: center;
+}
+.video_wrapper>video{
+    width: 100%;
+    height: 300px;
+
+}
+.buton_n{
+    background-color: turquoise;
+    border-radius: 15px;
+    padding:5px;
+    text-align:center;
+}
+
+.servic_e{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -35px;
+}
+.figure {
+    display: inline-block;
+    width: 358px;
+}
+.figure>img{
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    text-align: center;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.help_p>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.text_t>p{
+    font-size: 15px;
+    float: right;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #090707;
+    font-weight: 300;
+}
+.help_p>video{
+    width: 500px;
+    height:700px ;
+}
+  .buton_ne{
+    background-color: turquoise;
+    border-radius: 15px;
+    padding:5px;
+    text-align: right;
+}
+footer{
+    background-color:black;
+
+}
+.container>a{
+text-decoration: none;
+padding:10px;
+
+}
+.Foter>div{
+    color: aqua;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+
+}
+.Foooter>h1{
+    font-size: 20px;
+    color: aqua;
+}
+.Foooter>a{
+    color:#f5f5f5;
+    padding: 6px;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Buttonn{
+    float: right;
+}
+.btton>input{
+    background-color: black;
+}
+.page{
+    max-width: 1130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serrvice{
+    max-width: 1144px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.helpp{
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.indeeex {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 1130px;
+}
+.formm{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.Videoo{
+    float: left;
+}
+.headinng{
+    text-align: center;
+    font-size: 28px;
+}
+.Textt>p{
+    text-align: right;
+    width: 484px;
+    float: right;
+    text-align: justify;
+    margin-left: 6px;
+}
+.buttonn{
+    float: right;
+}
+.btn>a{
+    text-decoration: none;
+
+}
+ a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    
+    display: inline-block;
+    position: relative;
+  }
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .fontt{
+    font-size: 20px;
+  }
+  .head_iin>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.forrm{
+    text-align: cente;
+}
+
+.fullname{
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100px;
+
+}
+.Formus{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.inlinee>input{
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 8px;
+}
+   .lname>input{
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 8px;
+   }
+
+   .f_input {
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    padding: 0.5rem;
+}
+
+.field_group{
+    padding: 0.5rem;
+    margin-bottom: 15px;
+}
+.ggroup{
+    display: inline-flex;
+    padding: 5px;
+    margin-top: 30px;
+}
+.num{
+    margin-top: 40px;
+}
+.num>input{
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.addresss>textarea{
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.addresss{
+    margin-top: 38px;
+}
+.imggg>img{
+width: 500px;
+float: right;
+}
+.fa{
+    color: #f5f5f5;
+}
+.fa-light {
+    color: #f5f5f5;
+}
+.fa-brands{
+    color: #f5f5f5;
+}
+.fa-solid{
+    color: #f5f5f5;
+}
+.w-50>p{
+    margin-left: 20px;
+}
+.leftvideo>video{
+    margin-left: -25px;
+
+}
