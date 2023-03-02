@@ -1,2 +1,2 @@
 # Medical-webiste
-Medical website using Htm,Css
+Medical website using Html,Css
